@@ -6,7 +6,7 @@ from opencage.geocoder import OpenCageGeocode
 import folium
 
 
-key = "" #Geocoder API Key needs to paste here "your key" 
+key = "ee244d90ebb44c7a867d27b35d717457" #Geocoder API Key needs to paste here "your key" 
 number = input("please giver your number: ")
 new_number = phonenumbers.parse(number)
 location = geocoder.description_for_number(new_number, "en")
