@@ -23,4 +23,4 @@ i=255-g
 b=scipy.ndimage.filters.gaussian_filter(i,sigma=10)
 r=dodge(b,g)
 
-cv2.imwrite('1.png',r)
+cv2.imwrite('altered.png',r)
